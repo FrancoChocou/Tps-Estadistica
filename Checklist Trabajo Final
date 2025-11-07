@@ -1,0 +1,106 @@
+📋 CHECKLIST - TRABAJO FINAL ESTADÍSTICA II
+
+✅ BASE DE DATOS (SQL)
+
+Tabla Productos (ID, nombre, categoría, precio, stock)
+
+Tabla Clientes (ID, nombre, apellido, email, ciudad, edad)
+
+Tabla Ventas (ID, fecha, ID_Cliente, ID_Producto, cantidad, precio_unitario, método_pago, total)
+
+Definir relaciones con claves primarias y foráneas
+
+Crear tablas complementarias (opcional pero recomendado):
+
+Categorías
+
+Métodos de pago
+
+Zonas
+
+🔙 BACKEND (Spring Boot)
+
+Migrar estructura del proyecto de NetBeans a Spring Boot
+
+Configurar conexión a base de datos (application.properties)
+
+Crear entidades JPA para:
+
+Producto
+
+Cliente
+
+Venta
+
+Crear repositorios (Spring Data JPA)
+
+Desarrollar servicios con lógica de negocio
+
+Implementar controladores (REST) para:
+
+Registrar ventas
+
+Consultar estadísticas
+
+📊 ANÁLISIS ESTADÍSTICO (Backend)
+
+Media/promedio de ventas por:
+
+Día
+
+Producto
+
+Cliente
+
+Desvío estándar de ventas por período
+
+Correlación de Pearson entre:
+
+Precio vs cantidad vendida
+
+Cantidad vendida vs día de semana
+
+Monto total vs método de pago
+
+Endpoints específicos para cada cálculo estadístico
+
+🎨 FRONTEND (Interfaz de usuario)
+
+Pantalla para cargar ventas manualmente
+
+Dashboard estadístico con:
+
+Gráfico de barras (ventas por categoría/producto)
+
+Gráfico de dispersión (correlaciones)
+
+Gráfico de líneas (evolución temporal)
+
+Indicadores de media y desviación estándar
+
+Navegación entre secciones
+
+📄 DOCUMENTACIÓN
+
+Informe técnico (PDF/Word) con:
+
+Estructura de BD y consultas SQL principales
+
+Explicación de variables analizadas
+
+Resultados estadísticos e interpretación
+
+Gráficos y análisis
+
+Distribución de tareas por integrante
+
+🎤 COLOQUIO
+
+Preparar presentación de 10 minutos
+
+Demostración del sistema funcionando
+
+Explicación de la lógica estadística
+
+Conclusiones obtenidas
+
