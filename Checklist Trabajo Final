@@ -1,106 +1,115 @@
-📋 CHECKLIST - TRABAJO FINAL ESTADÍSTICA II
+✅ CHECKLIST - ESTADO DEL PROYECTO
 
-✅ BASE DE DATOS (SQL)
+🎯 LO QUE YA ESTÁ COMPLETADO:
 
-Tabla Productos (ID, nombre, categoría, precio, stock)
+📊 BASE DE DATOS
 
-Tabla Clientes (ID, nombre, apellido, email, ciudad, edad)
+✅ Estructura de base de datos creada (ecommerce_stats)
 
-Tabla Ventas (ID, fecha, ID_Cliente, ID_Producto, cantidad, precio_unitario, método_pago, total)
+✅ Tablas principales: clientes, productos, ventas
 
-Definir relaciones con claves primarias y foráneas
+✅ Tablas de referencia: categorias, metodos_pago
 
-Crear tablas complementarias (opcional pero recomendado):
+✅ Relaciones y claves foráneas configuradas
 
-Categorías
+✅ Vistas para análisis estadístico creadas
 
-Métodos de pago
+🔧 CÓDIGO BACKEND
 
-Zonas
+✅ Modelos (Cliente, Producto, Venta)
 
-🔙 BACKEND (Spring Boot)
+✅ DAOs con consultas estadísticas
 
-Migrar estructura del proyecto de NetBeans a Spring Boot
+✅ Services con lógica de negocio
 
-Configurar conexión a base de datos (application.properties)
+✅ Controllers para conectar capas
 
-Crear entidades JPA para:
+✅ DatabaseConfig corregido y funcionando
 
-Producto
+🎨 INTERFAZ FRONTEND
 
-Cliente
+✅ Dashboard con paneles estadísticos
 
-Venta
+✅ Panel de gestión de Clientes
 
-Crear repositorios (Spring Data JPA)
+✅ Panel de gestión de Productos
 
-Desarrollar servicios con lógica de negocio
+✅ Panel de gestión de Ventas
 
-Implementar controladores (REST) para:
+✅ Diálogos para crear/editar entidades
 
-Registrar ventas
+📈 ANÁLISIS ESTADÍSTICO IMPLEMENTADO
 
-Consultar estadísticas
+✅ Cálculo de medias y promedios
 
-📊 ANÁLISIS ESTADÍSTICO (Backend)
+✅ Desviación estándar de ventas
 
-Media/promedio de ventas por:
+✅ Correlación de Pearson entre variables
 
-Día
+✅ Visualizaciones en dashboard
 
-Producto
+🚧 LO QUE FALTA REALIZAR:
 
-Cliente
+🟡 PRUEBAS Y VERIFICACIÓN (URGENTE)
 
-Desvío estándar de ventas por período
+🔲 Probar que la aplicación inicia sin errores
 
-Correlación de Pearson entre:
+🔲 Verificar conexión a base de datos
 
-Precio vs cantidad vendida
+🔲 Testear CRUD de Clientes
 
-Cantidad vendida vs día de semana
+🔲 Testear CRUD de Productos
 
-Monto total vs método de pago
+🔲 Testear CRUD de Ventas
 
-Endpoints específicos para cada cálculo estadístico
+🔲 Verificar cálculos estadísticos en Dashboard
 
-🎨 FRONTEND (Interfaz de usuario)
+📊 POBLAR DATOS DE PRUEBA
+🔲 Insertar datos de prueba variados (para estadísticas)
 
-Pantalla para cargar ventas manualmente
+🔲 Crear ventas de diferentes días (para análisis temporal)
 
-Dashboard estadístico con:
+🔲 Generar datos con diferentes precios/cantidades (para correlaciones)
 
-Gráfico de barras (ventas por categoría/producto)
+📋 DOCUMENTACIÓN FINAL
+🔲 Preparar informe técnico PDF
 
-Gráfico de dispersión (correlaciones)
+🔲 Documentar estructura de base de datos
 
-Gráfico de líneas (evolución temporal)
+🔲 Explicar análisis estadísticos realizados
 
-Indicadores de media y desviación estándar
+🔲 Preparar presentación oral (10 minutos)
 
-Navegación entre secciones
+🎯 VALIDACIÓN FINAL
 
-📄 DOCUMENTACIÓN
+🔲 Verificar que cumple todos los requisitos del TP
 
-Informe técnico (PDF/Word) con:
+🔲 Probar casos bordes y manejo de errores
 
-Estructura de BD y consultas SQL principales
+🔲 Optimizar consultas SQL
 
-Explicación de variables analizadas
+🔲 Revisar integridad referencial
 
-Resultados estadísticos e interpretación
+🚀 PRÓXIMOS PASOS INMEDIATOS:
 
-Gráficos y análisis
+1. EJECUTAR Y PROBAR LA APLICACIÓN
 
-Distribución de tareas por integrante
+¿Compila sin errores?
 
-🎤 COLOQUIO
+¿Se conecta a la base de datos?
 
-Preparar presentación de 10 minutos
+¿Funcionan los paneles básicos?
 
-Demostración del sistema funcionando
+2. POBLAR DATOS DE PRUEBA
 
-Explicación de la lógica estadística
+Insertar clientes, productos y ventas de ejemplo
 
-Conclusiones obtenidas
+Generar datos variados para análisis estadístico
 
+3. VALIDAR CÁLCULOS ESTADÍSTICOS
+
+Verificar que las métricas del dashboard son correctas
+
+Probar correlaciones con datos reales
+
+ 
